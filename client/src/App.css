@@ -1,0 +1,329 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/* App.css */
+
+/* App.css */
+
+/* Navbar.css */
+
+
+
+
+
+/* Navbar.css */
+
+
+
+/* //cards slider */
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.card-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+}
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5%;
+  height: 5%;
+  opacity: 0.5;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+/* Room */
+.card-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card-title, .card-text {
+  margin-bottom: 0.5rem;
+}
+
+
+/* navbar */
+.offcanvas-body {
+  overflow-y: auto;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+  background-color: #5753c9;
+  border-color: #5753c9;
+}
+
+.offcanvas-title {
+  font-size: 1.5rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+
+
+.custom-navbar {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.5rem;
+}
+
+.close-icon {
+  font-size: 2rem;
+}
+
+.book-button {
+  background-color: #6c63ff;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.book-button:hover {
+  background-color: #5753c9;
+}
+
+.offcanvas-body ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.offcanvas-body ul li {
+  margin-bottom: 0.5rem;
+}
+
+
+/* Rooms */
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+}
+
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.custom-carousel .carousel-item {
+    position: relative;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+.std_input_item .form-control.is-invalid {
+  border-color: #dc3545; /* Bootstrap's danger color */
+}
+
+.std_error_form {
+  color: #dc3545; /* Bootstrap's danger color */
+  font-size: 0.875rem; /* Smaller font size */
+  margin-top: 0.1rem; /* Minimal margin above the error message */
+  margin-bottom: 0; /* No margin below the error message */
+}
+
+.input-group.mb-2 {
+  margin-bottom: 0; /* Remove bottom margin to keep error message close */
+}
+
+input::placeholder {
+  color: #6c757d; /* Placeholder text color */
+}
+
+input:focus {
+  border-color: #80bdff; /* Focus color */
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow */
+}
+
+
+/* CustomCalendar.css */
+
+
+ /* CustomCalendar.css */
+
+.custom-calendar {
+  width: 100%;
+  max-width: 400px;
+  background-color: #0a0a0a; /* Dark background */
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.react-calendar__navigation button {
+  background-color: #00aaff;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #0077cc;
+}
+
+.react-calendar__month-view__weekdays {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #77d4ff;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.react-calendar__tile {
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  color: #77d4ff;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.react-calendar__tile--now {
+  background-color: #00ffcc;
+  color: #000000;
+}
+
+.react-calendar__tile--active {
+  background-color: #0055ff;
+  color: #ffffff;
+}
+
+.react-calendar__tile--active:hover {
+  background-color: #0033cc;
+}
+
+.react-calendar__tile--range {
+  background-color: #0055ff;
+  color: #ffffff;
+}
+
+.react-calendar__tile--rangeStart,
+.react-calendar__tile--rangeEnd {
+  background-color: #0033cc;
+  color: #ffffff;
+}
+
+
+ 
+
+ 
+
+
+
